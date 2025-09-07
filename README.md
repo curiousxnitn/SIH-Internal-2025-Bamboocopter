@@ -72,9 +72,9 @@ python map.py
 
 - Generates:
 
-  - all_routes_map.html → shows all shortest paths.
+  - `all_routes_map.html` → shows all shortest paths.
 
-  - shortest_route_map.html → highlights the single shortest path.
+  - `shortest_route_map.html` → highlights the single shortest path.
 
  ### 2. Drone Control (MAVLink)
  ```bash
