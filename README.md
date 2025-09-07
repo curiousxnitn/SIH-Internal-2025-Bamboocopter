@@ -11,7 +11,10 @@ It demonstrates drone path planning, simulation, MAVLink communication, and obje
 ├── mavlink.py # Connects to drone via MAVLink, arms, takes off & lands
 ├── objectdetection.py # Detects nearby objects in a video feed using OpenCV
 ├── realsim.py # Drone path simulation with map animation & elevation profiling
+├── rtlsimuint.py # Simulates drone path on a map using RTLS coordinates
+├── satel.py # Handles satellite data & positioning for drone navigation
 ├── drone-in-sky-for-ml_slowed.mp4 # Sample drone video for object detection
+├── README.md # Project overview, setup instructions, and usage
 ```
 
 ## ⚙️ Features
