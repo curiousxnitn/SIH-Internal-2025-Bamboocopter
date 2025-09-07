@@ -43,7 +43,7 @@ It demonstrates drone path planning, simulation, MAVLink communication, and obje
 ### 🔧 Requirements
 Install dependencies:
 ```bash
-pip install osmnx networkx folium geopy pymavlink opencv-python numpy requests matplotlib
+pip install osmnx networkx folium geopy pymavlink opencv-python numpy requests matplotlib folium geopy
 ```
 
 ## ▶️ Usage
@@ -85,6 +85,18 @@ python realsim.py
 - Generates drone_simulation.html with an animated drone moving along the route.
 - Fetches terrain data from Open-Elevation API.
 - Displays an elevation profile plot of the path.
+
+### 5. Return to Launch Path
+```bash
+python rtlsimuint.py
+```
+- Enter a Start City and a Home City when prompted.
+- The drone simulation will:
+  - Take off from the start city.
+  - Gradually move toward the home city.
+  - Descend smoothly and land safely when close.
+- Generates:
+  - `city_rtl_animation.html` → interactive animated map showing the RTL flight path with altitude info.
 
 ## 🎉 About
 This code was built with passion, teamwork, and a little bit of caffeine ☕  
