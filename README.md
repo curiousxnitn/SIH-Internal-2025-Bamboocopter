@@ -53,7 +53,7 @@ pip install osmnx networkx folium geopy pymavlink opencv-python numpy requests m
 python map.py
 ```
 
-- Enter two city names when prompted.
+- Enter two city names when prompted (within 30km for faster results).
 
 - Generates:
 
