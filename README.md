@@ -39,7 +39,19 @@ It demonstrates drone path planning, simulation, MAVLink communication, and obje
 - Fetches road network & computes **shortest path** between two cities.  
 - Retrieves **elevation data** via Open-Elevation API.  
 - Generates a **drone animation** on a Folium map with moving drone icon.  
-- Plots an **elevation profile graph** of the route.  
+- Plots an **elevation profile graph** of the route.
+
+### 5. `rtlsimuint.py` – Return-to-Launch Simulation
+- Uses Folium + Geopy for geocoding & mapping.
+- Simulates drone flying back from start city to home city.
+- Stepwise movement + altitude descent until safe landing.
+- Generates animated map (`city_rtl_animation.html`) with drone path & altitude.
+
+### 6. `satel.py` – Satellite Map Routing
+- Uses OSMnx + NetworkX for city-to-city routing.
+- Computes shortest route + all equal shortest paths.
+- Folium maps with satellite basemap (Esri).
+- Saves as `all_routes_satellite_map.html` & `shortest_route_satellite_map.html`, opens in browser.
 
 ## 🚀 Getting Started
 
