@@ -1,19 +1,18 @@
 # SIH-Internal-2025-Bamboocopter
----
+
 # 🚁 Team Bamboocopter – Internal Hackathon (SIH)
 
 This repository contains the codebase developed by **Team Bamboocopter** for the **Internal Hackathon (SIH)**.  
 It demonstrates drone path planning, simulation, MAVLink communication, and object detection modules.
 
----
 ## 📂 Repository Structure
+```
 ├── map.py # Generates road network maps & shortest paths between cities
 ├── mavlink.py # Connects to drone via MAVLink, arms, takes off & lands
 ├── objectdetection.py # Detects nearby objects in a video feed using OpenCV
 ├── realsim.py # Drone path simulation with map animation & elevation profiling
 ├── drone-in-sky-for-ml_slowed.mp4 # Sample drone video for object detection
-
----
+```
 
 ## ⚙️ Features
 
@@ -39,8 +38,6 @@ It demonstrates drone path planning, simulation, MAVLink communication, and obje
 - Generates a **drone animation** on a Folium map with moving drone icon.  
 - Plots an **elevation profile graph** of the route.  
 
----
-
 ## 🚀 Getting Started
 
 ### 🔧 Requirements
@@ -48,7 +45,6 @@ Install dependencies:
 ```bash
 pip install osmnx networkx folium geopy pymavlink opencv-python numpy requests matplotlib
 ```
----
 
 ## ▶️ Usage
 
@@ -89,8 +85,6 @@ python realsim.py
 - Generates drone_simulation.html with an animated drone moving along the route.
 - Fetches terrain data from Open-Elevation API.
 - Displays an elevation profile plot of the path.
-
----
 
 ## 🎉 About
 This code was built with passion, teamwork, and a little bit of caffeine ☕  
