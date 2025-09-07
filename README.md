@@ -97,7 +97,7 @@ python objectdetection.py
 ```bash
 python realsim.py
 ```
-- Generates drone_simulation.html with an animated drone moving along the route.
+- Generates `drone_simulation.html` with an animated drone moving along the route.
 - Fetches terrain data from Open-Elevation API.
 - Displays an elevation profile plot of the path.
 
