@@ -98,6 +98,20 @@ python rtlsimuint.py
 - Generates:
   - `city_rtl_animation.html` → interactive animated map showing the RTL flight path with altitude info.
 
+### 6. Satellite Map Route Planner
+```bash
+python satel.py
+```
+- Enter the first city and the second city when prompted.
+- The script will:
+  - Download road network data.
+  - Calculate the routes.
+  - Generate interactive satellite maps with the routes drawn.
+
+- Output:
+  - `all_routes_satellite_map.html`
+  - `shortest_route_satellite_map.html`
+
 ## 🎉 About
 This code was built with passion, teamwork, and a little bit of caffeine ☕  
 by **Team Bamboocopter** for the **Internal Hackathon (SIH)**.  
