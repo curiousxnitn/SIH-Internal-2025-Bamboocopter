@@ -1,5 +1,11 @@
 # SIH-Internal-2025-Bamboocopter
 
+```
+Problem Statement Code: 25047
+Problem Statement Title: Disaster Response Drone For Remote Areas
+Theme: Robotics and Drones
+```
+
 # 🚁 Team Bamboocopter – Internal Hackathon (SIH)
 
 This repository contains the codebase developed by **Team Bamboocopter** for the **Internal Hackathon (SIH)**.  
